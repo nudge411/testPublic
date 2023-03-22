@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nudge411",
+    "module": "email_validator",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "email_validator-1.0.aar",
+          "url": "email_validator-1.0.aar",
+          "size": 4114,
+          "sha512": "fbc36c3dac43b36544b77cc958e85dd8140ef1943c0f58de614d891d913beb58778028006394ada718db2c5f4cc3efaaf9ae2cca87027ebc049c63d71e5a64e8",
+          "sha256": "d4207b1cdee72c12b4ad9e6872d765e59d0970a62f3d3110166c63595e37dd97",
+          "sha1": "a4089f12145c71ca3daa146eb6bce612225879ba",
+          "md5": "0ab42f1c430054c2463239f8ca311a96"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "email_validator-1.0.aar",
+          "url": "email_validator-1.0.aar",
+          "size": 4114,
+          "sha512": "fbc36c3dac43b36544b77cc958e85dd8140ef1943c0f58de614d891d913beb58778028006394ada718db2c5f4cc3efaaf9ae2cca87027ebc049c63d71e5a64e8",
+          "sha256": "d4207b1cdee72c12b4ad9e6872d765e59d0970a62f3d3110166c63595e37dd97",
+          "sha1": "a4089f12145c71ca3daa146eb6bce612225879ba",
+          "md5": "0ab42f1c430054c2463239f8ca311a96"
+        }
+      ]
+    }
+  ]
+}
