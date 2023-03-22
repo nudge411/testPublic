@@ -37,4 +37,14 @@
       <scope>runtime</scope>
     </dependency>
   </dependencies>
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>com.simpligility.maven.plugins</groupId>
+              <artifactId>android-maven-plugin</artifactId>
+              <version>4.0.0</version>
+              <extensions>true</extensions>
+          </plugin>
+      </plugins>
+  </build>
 </project>
