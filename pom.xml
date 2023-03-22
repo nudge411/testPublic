@@ -45,23 +45,23 @@
         </dependency>
       </dependencies>
   </dependencyManagement>
-  <build>
-      <plugins>
-          <plugin>
-              <groupId>com.simpligility.maven.plugins</groupId>
-              <artifactId>android-maven-plugin</artifactId>
-              <version>4.6.0</version>
-              <extensions>true</extensions>
-                  <configuration>
-                    <sdk>
-                      <platform>android-33</platform>
-                    </sdk>
-                    <manifest>${project.basedir}/src/main/AndroidManifest.xml</manifest>
-                    <sign>
-                      <debug>false</debug>
-                    </sign>
-                  </configuration>
-          </plugin>
-      </plugins>
-  </build>
+<!--  <build>-->
+<!--      <plugins>-->
+<!--          <plugin>-->
+<!--              <groupId>com.simpligility.maven.plugins</groupId>-->
+<!--              <artifactId>android-maven-plugin</artifactId>-->
+<!--              <version>4.6.0</version>-->
+<!--              <extensions>true</extensions>-->
+<!--                  <configuration>-->
+<!--                    <sdk>-->
+<!--                      <platform>android-33</platform>-->
+<!--                    </sdk>-->
+<!--                    <manifest>${project.basedir}/src/main/AndroidManifest.xml</manifest>-->
+<!--                    <sign>-->
+<!--                      <debug>false</debug>-->
+<!--                    </sign>-->
+<!--                  </configuration>-->
+<!--          </plugin>-->
+<!--      </plugins>-->
+<!--  </build>-->
 </project>
