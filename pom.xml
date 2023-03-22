@@ -11,6 +11,12 @@
   <artifactId>email_validator</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
+  <repositories>
+      <repository>
+          <id>google</id>
+          <url>https://maven.google.com</url>
+      </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
