@@ -1,0 +1,6 @@
+# jitpack.yml
+releases:
+  - tag: v1.0  # the tag name of the release that includes the AAR file
+    artifacts:
+      - file: hcblibrary-debug.aar  # the name of the AAR file
+        type: aar  # the type of artifact
