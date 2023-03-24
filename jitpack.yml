@@ -1,6 +1,3 @@
-# jitpack.yml
-releases:
-  - tag: v1.18  # the tag name of the release that includes the AAR file
-    artifacts:
-      - file: hcblibrary-debug.aar  # the name of the AAR file
-        type: aar  # the type of artifact
+install:
+  - FILE="-Dfile=hcblibrary-debug.aar"
+  - mvn install:install-file $FILE -DgroupId=com.hypercloud -DartifactId=base -Dversion=1.19 -Dpackaging=aar -DgeneratePom=true
